@@ -18,31 +18,17 @@ header {
   background-color: #0059a6;
   color: #fff;
   padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header .logo {
-  flex: 1;
-  text-align: left; /* Ensure the logo stays on the left */
-  margin-left: 20px;
 }
 
 header .logo img {
-  height: 30px;
-}
-
-header nav {
-  flex: 2;
-  text-align: center; /* Keeps navigation centered */
+  height: 40px; /* Larger size for desktop */
 }
 
 header nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: inline-block;
+  text-align: center;
 }
 
 header ul li {
@@ -61,9 +47,8 @@ header nav ul li a:hover {
 }
 
 header .cta {
-  flex: 1;
-  text-align: right; /* Align CTA button to the right */
-  margin-right: 20px;
+  float: right;
+  margin-top: -45px; /* Aligns button to right on desktop */
 }
 
 header .btn {
