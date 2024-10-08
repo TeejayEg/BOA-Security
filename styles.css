@@ -21,7 +21,7 @@ header {
 }
 
 header .logo img {
-  height: 40px; /* Larger size for desktop */
+  height: 25px; /* Larger size for desktop */
 }
 
 header nav ul {
@@ -33,7 +33,7 @@ header nav ul {
 
 header ul li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 header nav ul li a {
