@@ -18,18 +18,29 @@ header {
   background-color: #0059a6;
   color: #fff;
   padding: 20px 0;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 20px; /* Adjust margin for better alignment */
 }
 
 header .logo img {
-  height: 10px; /* Larger size for desktop */
+  height: 30px; /* Larger size for desktop */
+}
+
+header nav {
+  flex-grow: 1;
+  text-align: center;
 }
 
 header nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: inline-block;
 }
 
 header ul li {
@@ -48,8 +59,7 @@ header nav ul li a:hover {
 }
 
 header .cta {
-  float: right;
-  margin-top: -45px; /* Align button on desktop */
+  margin-right: 20px;
 }
 
 header .btn {
