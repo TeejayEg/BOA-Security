@@ -22,7 +22,7 @@ header {
 }
 
 header .logo img {
-  height: 40px; /* Larger size for desktop */
+  height: 10px; /* Larger size for desktop */
 }
 
 header nav ul {
