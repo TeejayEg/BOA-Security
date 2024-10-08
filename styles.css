@@ -24,16 +24,18 @@ header {
 }
 
 header .logo {
-  margin-left: 20px; /* Adjust margin for better alignment */
+  flex: 1;
+  text-align: left; /* Ensure the logo stays on the left */
+  margin-left: 20px;
 }
 
 header .logo img {
-  height: 30px; /* Larger size for desktop */
+  height: 30px;
 }
 
 header nav {
-  flex-grow: 1;
-  text-align: center;
+  flex: 2;
+  text-align: center; /* Keeps navigation centered */
 }
 
 header nav ul {
@@ -59,6 +61,8 @@ header nav ul li a:hover {
 }
 
 header .cta {
+  flex: 1;
+  text-align: right; /* Align CTA button to the right */
   margin-right: 20px;
 }
 
